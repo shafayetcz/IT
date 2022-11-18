@@ -167,6 +167,9 @@ footer{
     margin: -50px 0px 0px 85px;
   
 }
+.flex-item-left img{
+  width: 100%;
+}
 }
 @media (max-width: 500px) {
   .flex-item-right, .flex-item-left {
@@ -181,6 +184,9 @@ footer{
     
     margin: -50px 0px 0px 25px;
   
+}
+.flex-item-left img{
+  width: 100%;
 }
 }
 @media (max-width: 400px) {
