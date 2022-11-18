@@ -77,6 +77,51 @@ footer{
 }
 
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 1280px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+  .grid-container {
+
+  grid-template-columns: repeat(3, 1fr);
+
+}
+.sth {
+    
+    margin: -50px 0px 0px 51px;
+  
+}
+}
+@media (max-width: 1280px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+  .grid-container {
+
+  grid-template-columns: repeat(3, 1fr);
+
+}
+.sth {
+    
+    margin: -50px 0px 0px 5px;
+  
+}
+}
+@media (max-width: 950px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+  .grid-container {
+
+  grid-template-columns: repeat(2, 1fr);
+
+}
+.sth {
+    
+    margin: -50px 0px 0px 58px;
+  
+}
+}
 @media (max-width: 900px) {
   .flex-item-right, .flex-item-left {
     flex: 100%;
@@ -92,7 +137,38 @@ footer{
   
 }
 }
-@media (max-width: 600px) {
+@media (max-width: 780px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+  .grid-container {
+
+  grid-template-columns: repeat(2, 1fr);
+
+}
+.sth {
+    
+    margin: -50px 0px 0px 26px;
+  
+}
+}
+
+@media (max-width: 550px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+  .grid-container {
+
+  grid-template-columns: repeat(1, 1fr);
+
+}
+.sth {
+    
+    margin: -50px 0px 0px 85px;
+  
+}
+}
+@media (max-width: 500px) {
   .flex-item-right, .flex-item-left {
     flex: 100%;
   }
